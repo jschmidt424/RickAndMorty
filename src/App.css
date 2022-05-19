@@ -8,6 +8,7 @@
     height: calc(50vh - 60px);
     text-align: center;
     position: relative;
+    background-color: #24282f;
 }
 
 .HTjsSL {
@@ -27,7 +28,8 @@
 }
 
 .HWjsSL .hero-img img {
-    width: 100%;
+    margin: 0 auto;
+    width: auto;
     height: 100%;
     object-fit: cover;
     fill: #f5f5f5;

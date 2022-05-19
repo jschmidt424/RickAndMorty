@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Characters from "./components/characters";
-import Rm from "./img/rm-bg.jpg";
+import Rm from "./img/rick-and-morty.png";
 import { Button } from "@mui/material";
 import Pagination from "./components/pagination";
 import GitHub from "@mui/icons-material/GitHub";
@@ -54,7 +54,6 @@ const App = () => {
   return (
     <main className="App">
       <section className="hero-wrapper HWjsSL">
-        <h1 class="hero-title HTjsSL">Rick and Morty Characters</h1>
         <div className="hero-img">
           <img src={Rm} alt="Rick and Morty" />
         </div>
